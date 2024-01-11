@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4e4ba;
+}
+.container{
+    height: 27rem;
+    width: 23rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+img{
+    width: 2rem;
+    height: 2rem;
+}
+input{
+    border: none;
+    border: solid grey 0.5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.3rem;
+    margin-top: 7px;
+    margin-left: 100px;
+}
+.drop-down{
+    width: 23rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+ 
+}
+.country1{
+    display: flex;
+    border: solid grey 1px;
+    border-radius: 8px;
+    padding: 1.5px;
+}
+.country2{
+    display: flex;
+    border: solid grey 1px;
+    border-radius: 8px;
+    padding: 1.5px;
+}
+select{
+  border: none;
+  font-size: 0.75rem;
+}
+button{
+    background-color: #af4d98;
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    border: solid grey 1px;
+    border-radius: 0.5rem;
+    margin-top: 50px;
+    margin-left: 67px;
+}
+form{
+    height: 50vh;
+    width:60vw;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.converted{
+     margin-top: 50px;
+    /* margin-left: 125px; */
+    display: flex;
+    justify-content: center;
+}
+i{
+    margin-top: 30px;
+}
+.btn:hover{
+    cursor: pointer;
+}
